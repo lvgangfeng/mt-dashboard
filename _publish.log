@@ -51,3 +51,8 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Error
 [2026-07-17 11:31:00] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-07-17 11:32:31] push 失败(检查 gh/git 认证)
+[2026-07-17 13:30:00] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
