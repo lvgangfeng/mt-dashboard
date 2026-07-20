@@ -64,3 +64,36 @@ MD   → /tmp/mt_pages_out.md
 [2026-07-17 15:01:01] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75004 ms: Couldn't connect to server
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+[2026-07-17 15:03:40] push 失败(检查 gh/git 认证)
+[2026-07-18 09:40:04] === mt_pages_publish 启动 ===
+[2026-07-18 09:40:04] 非交易日/无当日数据，跳过
+[2026-07-18 10:00:02] === mt_pages_publish 启动 ===
+[2026-07-18 10:00:02] 非交易日/无当日数据，跳过
+[2026-07-18 10:30:02] === mt_pages_publish 启动 ===
+[2026-07-18 10:30:02] 非交易日/无当日数据，跳过
+[2026-07-18 11:31:03] === mt_pages_publish 启动 ===
+[2026-07-18 11:31:03] 非交易日/无当日数据，跳过
+[2026-07-18 13:30:00] === mt_pages_publish 启动 ===
+[2026-07-18 13:30:00] 非交易日/无当日数据，跳过
+[2026-07-18 15:01:00] === mt_pages_publish 启动 ===
+[2026-07-18 15:01:00] 非交易日/无当日数据，跳过
+[2026-07-19 09:40:00] === mt_pages_publish 启动 ===
+[2026-07-19 09:40:01] 非交易日/无当日数据，跳过
+[2026-07-19 10:00:01] === mt_pages_publish 启动 ===
+[2026-07-19 10:00:02] 非交易日/无当日数据，跳过
+[2026-07-19 10:30:00] === mt_pages_publish 启动 ===
+[2026-07-19 10:30:01] 非交易日/无当日数据，跳过
+[2026-07-19 11:31:00] === mt_pages_publish 启动 ===
+[2026-07-19 11:31:01] 非交易日/无当日数据，跳过
+[2026-07-19 13:30:00] === mt_pages_publish 启动 ===
+[2026-07-19 13:30:01] 非交易日/无当日数据，跳过
+[2026-07-19 14:30:01] === mt_pages_publish 启动 ===
+[2026-07-19 14:30:02] 非交易日/无当日数据，跳过
+[2026-07-19 15:01:01] === mt_pages_publish 启动 ===
+[2026-07-19 15:01:02] 非交易日/无当日数据，跳过
+[2026-07-20 09:40:03] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
