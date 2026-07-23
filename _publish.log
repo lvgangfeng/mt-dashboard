@@ -195,3 +195,8 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv 
 [2026-07-23 11:31:02] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75002 ms: Couldn't connect to server
+[2026-07-23 11:37:40] push 失败(检查 gh/git 认证)
+[2026-07-23 13:30:04] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
