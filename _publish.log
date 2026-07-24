@@ -254,3 +254,8 @@ urllib.error.URLError: <urlopen error [Errno 61] Connection refused>
 [2026-07-24 14:30:05] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Error in the HTTP2 framing layer
+[2026-07-24 14:36:03] push 失败(检查 gh/git 认证)
+[2026-07-24 03:03:55] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
