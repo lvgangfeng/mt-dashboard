@@ -259,3 +259,7 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Error
 [2026-07-24 03:03:55] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+[2026-07-24 03:04:34] 已推送 2026-07-24 03:04 → Pages 将刷新
+[2026-07-24 15:10:03] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
