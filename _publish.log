@@ -322,3 +322,7 @@ fatal: the remote end hung up unexpectedly
 [2026-07-27 10:30:03] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+[2026-07-27 10:30:37] ✅ 已推送 2026-07-27 10:30 并校验 remote==local(a608d3b3053bf2c70673fbf0400608b83f7f872c) → Pages 将刷新
+[2026-07-27 11:40:00] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
