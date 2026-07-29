@@ -390,3 +390,67 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Faile
 [2026-07-28 15:10:01] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-07-28 15:11:43] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Empty reply from server
+[2026-07-28 15:14:23] push 第2次失败，切 HTTP/1.1 后重试
+[2026-07-28 15:14:30] ✅ 已推送 2026-07-28 15:10 并校验 remote==local(aa8fd11736225ab2959794223588cc44648a0561) → Pages 将刷新
+[2026-07-29 09:40:04] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 785, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 701, in compute_today
+    m = score_series(build_market_daily(since, con=con, today_df=today_df))
+  File "/Users/lv/astock_db/market_thermometer.py", line 391, in score_series
+    "涨跌停情绪": score_zdt(r["zt"], r["dt"], r["zb_rate"], None),
+  File "/Users/lv/astock_db/market_thermometer.py", line 265, in score_zdt
+    s_zb = _band(zb_rate, [0.15, 0.25, 0.35, 0.5], [100, 75, 50, 25, 0]) if zb_rate is not None else None
+  File "/Users/lv/astock_db/market_thermometer.py", line 232, in _band
+    if x < c:
+  File "pandas/_libs/missing.pyx", line 392, in pandas._libs.missing.NAType.__bool__
+TypeError: boolean value of NA is ambiguous
+[2026-07-29 10:00:01] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 785, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 701, in compute_today
+    m = score_series(build_market_daily(since, con=con, today_df=today_df))
+  File "/Users/lv/astock_db/market_thermometer.py", line 391, in score_series
+    "涨跌停情绪": score_zdt(r["zt"], r["dt"], r["zb_rate"], None),
+  File "/Users/lv/astock_db/market_thermometer.py", line 265, in score_zdt
+    s_zb = _band(zb_rate, [0.15, 0.25, 0.35, 0.5], [100, 75, 50, 25, 0]) if zb_rate is not None else None
+  File "/Users/lv/astock_db/market_thermometer.py", line 232, in _band
+    if x < c:
+  File "pandas/_libs/missing.pyx", line 392, in pandas._libs.missing.NAType.__bool__
+TypeError: boolean value of NA is ambiguous
+[2026-07-29 10:30:00] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 785, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 701, in compute_today
+    m = score_series(build_market_daily(since, con=con, today_df=today_df))
+  File "/Users/lv/astock_db/market_thermometer.py", line 391, in score_series
+    "涨跌停情绪": score_zdt(r["zt"], r["dt"], r["zb_rate"], None),
+  File "/Users/lv/astock_db/market_thermometer.py", line 265, in score_zdt
+    s_zb = _band(zb_rate, [0.15, 0.25, 0.35, 0.5], [100, 75, 50, 25, 0]) if zb_rate is not None else None
+  File "/Users/lv/astock_db/market_thermometer.py", line 232, in _band
+    if x < c:
+  File "pandas/_libs/missing.pyx", line 392, in pandas._libs.missing.NAType.__bool__
+TypeError: boolean value of NA is ambiguous
+[2026-07-29 11:40:03] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 785, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 701, in compute_today
+    m = score_series(build_market_daily(since, con=con, today_df=today_df))
+  File "/Users/lv/astock_db/market_thermometer.py", line 391, in score_series
+    "涨跌停情绪": score_zdt(r["zt"], r["dt"], r["zb_rate"], None),
+  File "/Users/lv/astock_db/market_thermometer.py", line 265, in score_zdt
+    s_zb = _band(zb_rate, [0.15, 0.25, 0.35, 0.5], [100, 75, 50, 25, 0]) if zb_rate is not None else None
+  File "/Users/lv/astock_db/market_thermometer.py", line 232, in _band
+    if x < c:
+  File "pandas/_libs/missing.pyx", line 392, in pandas._libs.missing.NAType.__bool__
+TypeError: boolean value of NA is ambiguous
+[2026-07-29 12:10:40] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
