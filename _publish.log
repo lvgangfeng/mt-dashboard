@@ -454,3 +454,7 @@ TypeError: boolean value of NA is ambiguous
 [2026-07-29 12:10:40] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+[2026-07-29 12:11:33] ✅ 已推送 2026-07-29 12:11 并校验 remote==local(f7e207b1b3f0d3efdf6b8054209e3dbb9299f8d6) → Pages 将刷新
+[2026-07-29 12:31:56] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
