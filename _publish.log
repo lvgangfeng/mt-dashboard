@@ -1061,3 +1061,13 @@ _duckdb.TransactionException: TransactionContext Error: Failure while replaying 
 [2026-08-14 13:30:04] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-08-14 13:31:37] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Empty reply from server
+[2026-08-14 13:33:11] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75026 ms: Couldn't connect to server
+[2026-08-14 13:34:29] push 第3次失败，切 HTTP/1.1 后重试
+[2026-08-14 13:34:32] ⚠️ push 连试3次全失败(检查 gh/git 认证)——线上仍为旧版！
+[2026-08-14 14:30:04] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
