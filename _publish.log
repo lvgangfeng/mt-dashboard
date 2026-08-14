@@ -970,3 +970,94 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Faile
 [2026-08-13 10:00:03] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-08-13 10:01:45] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75002 ms: Couldn't connect to server
+[2026-08-13 10:03:03] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-08-13 10:04:14] push 第3次失败，切 HTTP/1.1 后重试
+[2026-08-13 10:04:17] ⚠️ push 连试3次全失败(检查 gh/git 认证)——线上仍为旧版！
+[2026-08-13 10:30:05] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-13 11:40:03] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-13 13:30:03] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-13 14:30:05] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-13 15:10:00] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-14 09:40:04] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-14 10:00:01] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-14 10:30:01] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-14 11:40:00] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-08-14 13:30:04] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
