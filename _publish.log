@@ -1081,3 +1081,36 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Faile
 [2026-08-14 15:10:05] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75001 ms: Couldn't connect to server
+[2026-08-14 15:12:50] ⚠️ 推送后校验不一致！local=451afd7be67776d362ead73fd208548bc9967deb remote=空——线上可能未更新，需人工核查
+[2026-08-15 09:40:00] === mt_pages_publish 启动 ===
+[2026-08-15 09:40:00] 非交易日/无当日数据，跳过
+[2026-08-15 10:00:04] === mt_pages_publish 启动 ===
+[2026-08-15 10:00:04] 非交易日/无当日数据，跳过
+[2026-08-15 10:30:04] === mt_pages_publish 启动 ===
+[2026-08-15 10:30:04] 非交易日/无当日数据，跳过
+[2026-08-15 11:40:04] === mt_pages_publish 启动 ===
+[2026-08-15 11:40:04] 非交易日/无当日数据，跳过
+[2026-08-15 13:30:04] === mt_pages_publish 启动 ===
+[2026-08-15 13:30:04] 非交易日/无当日数据，跳过
+[2026-08-15 14:30:01] === mt_pages_publish 启动 ===
+[2026-08-15 14:30:01] 非交易日/无当日数据，跳过
+[2026-08-15 15:10:04] === mt_pages_publish 启动 ===
+[2026-08-15 15:10:04] 非交易日/无当日数据，跳过
+[2026-08-16 09:40:04] === mt_pages_publish 启动 ===
+[2026-08-16 09:40:04] 非交易日/无当日数据，跳过
+[2026-08-16 10:00:01] === mt_pages_publish 启动 ===
+[2026-08-16 10:00:01] 非交易日/无当日数据，跳过
+[2026-08-16 10:30:04] === mt_pages_publish 启动 ===
+[2026-08-16 10:30:04] 非交易日/无当日数据，跳过
+[2026-08-16 11:40:04] === mt_pages_publish 启动 ===
+[2026-08-16 11:40:04] 非交易日/无当日数据，跳过
+[2026-08-16 13:30:00] === mt_pages_publish 启动 ===
+[2026-08-16 13:30:00] 非交易日/无当日数据，跳过
+[2026-08-16 14:30:04] === mt_pages_publish 启动 ===
+[2026-08-16 14:30:04] 非交易日/无当日数据，跳过
+[2026-08-16 15:10:04] === mt_pages_publish 启动 ===
+[2026-08-16 15:10:04] 非交易日/无当日数据，跳过
+[2026-08-17 09:40:01] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
