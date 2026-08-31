@@ -1585,3 +1585,41 @@ MD   → /tmp/mt_pages_out.md
 [2026-08-28 15:10:05] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-08-28 15:11:44] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-08-28 15:12:56] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75026 ms: Couldn't connect to server
+[2026-08-28 15:14:14] push 第3次失败，切 HTTP/1.1 后重试
+[2026-08-28 15:14:17] ⚠️ push 连试3次全失败(检查 gh/git 认证)——线上仍为旧版！
+[2026-08-29 09:40:02] === mt_pages_publish 启动 ===
+[2026-08-29 09:40:02] 非交易日/无当日数据，跳过
+[2026-08-29 10:00:04] === mt_pages_publish 启动 ===
+[2026-08-29 10:00:04] 非交易日/无当日数据，跳过
+[2026-08-29 10:30:04] === mt_pages_publish 启动 ===
+[2026-08-29 10:30:04] 非交易日/无当日数据，跳过
+[2026-08-29 11:40:00] === mt_pages_publish 启动 ===
+[2026-08-29 11:40:00] 非交易日/无当日数据，跳过
+[2026-08-29 13:30:04] === mt_pages_publish 启动 ===
+[2026-08-29 13:30:04] 非交易日/无当日数据，跳过
+[2026-08-29 14:30:00] === mt_pages_publish 启动 ===
+[2026-08-29 14:30:00] 非交易日/无当日数据，跳过
+[2026-08-29 15:10:01] === mt_pages_publish 启动 ===
+[2026-08-29 15:10:01] 非交易日/无当日数据，跳过
+[2026-08-30 09:40:04] === mt_pages_publish 启动 ===
+[2026-08-30 09:40:04] 非交易日/无当日数据，跳过
+[2026-08-30 10:00:01] === mt_pages_publish 启动 ===
+[2026-08-30 10:00:01] 非交易日/无当日数据，跳过
+[2026-08-30 10:30:04] === mt_pages_publish 启动 ===
+[2026-08-30 10:30:04] 非交易日/无当日数据，跳过
+[2026-08-30 11:40:04] === mt_pages_publish 启动 ===
+[2026-08-30 11:40:04] 非交易日/无当日数据，跳过
+[2026-08-30 13:30:04] === mt_pages_publish 启动 ===
+[2026-08-30 13:30:04] 非交易日/无当日数据，跳过
+[2026-08-30 14:30:04] === mt_pages_publish 启动 ===
+[2026-08-30 14:30:04] 非交易日/无当日数据，跳过
+[2026-08-30 15:10:04] === mt_pages_publish 启动 ===
+[2026-08-30 15:10:04] 非交易日/无当日数据，跳过
+[2026-08-31 09:40:01] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
