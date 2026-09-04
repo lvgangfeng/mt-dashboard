@@ -1809,3 +1809,15 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Faile
 [2026-09-04 11:40:00] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75005 ms: Couldn't connect to server
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+[2026-09-04 11:42:47] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75039 ms: Couldn't connect to server
+[2026-09-04 11:44:05] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75027 ms: Couldn't connect to server
+[2026-09-04 11:45:23] push 第3次失败，切 HTTP/1.1 后重试
+[2026-09-04 11:45:26] ⚠️ push 连试3次全失败(检查 gh/git 认证)——线上仍为旧版！
+[2026-09-04 13:30:05] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
