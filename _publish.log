@@ -2111,3 +2111,13 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Faile
 [2026-09-11 13:30:00] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-09-11 13:31:47] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75025 ms: Couldn't connect to server
+[2026-09-11 13:34:43] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75035 ms: Couldn't connect to server
+[2026-09-11 13:36:01] push 第3次失败，切 HTTP/1.1 后重试
+[2026-09-11 13:36:04] ⚠️ push 连试3次全失败(检查 gh/git 认证)——线上仍为旧版！
+[2026-09-11 14:30:02] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
