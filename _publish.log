@@ -2419,3 +2419,9 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Faile
 [2026-09-21 13:30:04] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-09-21 13:31:40] push 第1次失败，切 HTTP/1.1 后重试
+[2026-09-21 13:33:59] ✅ 已推送 2026-09-21 13:30 并校验 remote==local(f76e0a01830e06ca986cd53af947d820a452f7f5) → Pages 将刷新
+[2026-09-21 14:30:04] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
