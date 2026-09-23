@@ -2487,3 +2487,7 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv 
 [2026-09-23 10:30:01] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+[2026-09-23 10:30:17] ✅ 已推送 2026-09-23 10:30 并校验 remote==local(61383529b24838fa2e2c47b446439b8062be96ba) → Pages 将刷新
+[2026-09-23 11:40:01] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
