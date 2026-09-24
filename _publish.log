@@ -2552,3 +2552,11 @@ MD   → /tmp/mt_pages_out.md
 [2026-09-24 14:30:01] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75001 ms: Couldn't connect to server
+[2026-09-24 14:31:58] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75025 ms: Couldn't connect to server
+[2026-09-24 14:33:16] push 第2次失败，切 HTTP/1.1 后重试
+[2026-09-24 14:37:44] ✅ 已推送 2026-09-24 14:30 并校验 remote==local(e6fd75922a874ed901e5ab2eb811b9ae57df8d4f) → Pages 将刷新
+[2026-09-24 15:10:00] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
