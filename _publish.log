@@ -3247,3 +3247,8 @@ MD   → /tmp/mt_pages_out.md
 [2026-10-19 13:30:02] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-10-19 13:32:13] ⚠️ 推送后校验不一致！local=45ede766abf4384444109d4814b144b2c493c7f3 remote=空——线上可能未更新，需人工核查
+[2026-10-19 14:30:04] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
