@@ -3294,3 +3294,12 @@ fatal: the remote end hung up unexpectedly
 [2026-10-20 11:40:04] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-10-20 11:41:50] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75004 ms: Couldn't connect to server
+[2026-10-20 11:43:08] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server
+[2026-10-20 11:45:04] ⚠️ 推送后校验不一致！local=9f9b674c1f34dd280c103bdf1150bf2521cfba3f remote=空——线上可能未更新，需人工核查
+[2026-10-20 13:30:02] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
