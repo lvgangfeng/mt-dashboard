@@ -3923,3 +3923,12 @@ fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv 
 [2026-11-06 10:00:04] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75001 ms: Couldn't connect to server
+[2026-11-06 10:02:20] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75023 ms: Couldn't connect to server
+[2026-11-06 10:03:38] push 第2次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server
+[2026-11-06 10:04:59] ⚠️ 推送后校验不一致！local=29c800fb70e1ddfa2ade82cac55f0647f09bbf22 remote=空——线上可能未更新，需人工核查
+[2026-11-06 10:30:01] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
