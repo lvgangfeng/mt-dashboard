@@ -4050,3 +4050,11 @@ MD   → /tmp/mt_pages_out.md
 [2026-11-10 14:30:00] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75003 ms: Couldn't connect to server
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+[2026-11-10 14:32:49] push 第1次失败，切 HTTP/1.1 后重试
+[2026-11-10 14:35:09] ✅ 已推送 2026-11-10 14:30 并校验 remote==local(e0f99f83033fd218d49ee8b3f917fbc4acd5fd10) → Pages 将刷新
+[2026-11-10 15:10:02] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
