@@ -4354,3 +4354,8 @@ MD   → /tmp/mt_pages_out.md
 [2026-11-18 13:30:05] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Empty reply from server
+[2026-11-18 13:32:11] ⚠️ 推送后校验不一致！local=d80052ace63af617a846dbbc137058c0bcf6398d remote=空——线上可能未更新，需人工核查
+[2026-11-18 14:30:05] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
