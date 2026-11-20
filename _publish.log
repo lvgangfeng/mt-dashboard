@@ -4446,3 +4446,7 @@ _duckdb.TransactionException: TransactionContext Error: Failure while replaying 
 [2026-11-20 13:30:05] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+[2026-11-20 13:30:44] ✅ 已推送 2026-11-20 13:30 并校验 remote==local(ef9c0a44ec1cc055480d7c54daf824627beeeeb4) → Pages 将刷新
+[2026-11-20 14:30:05] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
