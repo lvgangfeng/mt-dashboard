@@ -4404,3 +4404,45 @@ MD   → /tmp/mt_pages_out.md
 [2026-11-19 15:10:05] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Empty reply from server
+[2026-11-19 15:12:05] push 第1次失败，切 HTTP/1.1 后重试
+[2026-11-19 15:13:49] ✅ 已推送 2026-11-19 15:10 并校验 remote==local(fe4f0dd7584c8af190f77cc3f745afa14bfd5a90) → Pages 将刷新
+[2026-11-20 09:40:05] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-11-20 10:00:01] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-11-20 10:30:05] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-11-20 11:40:05] === mt_pages_publish 启动 ===
+Traceback (most recent call last):
+  File "/Users/lv/astock_db/market_thermometer.py", line 789, in <module>
+    data = compute_today(intraday=(sys.argv[1] == "intraday"))
+  File "/Users/lv/astock_db/market_thermometer.py", line 688, in compute_today
+    con = _con()
+  File "/Users/lv/astock_db/market_thermometer.py", line 46, in _con
+    return duckdb.connect(DB, read_only=ro)
+_duckdb.TransactionException: TransactionContext Error: Failure while replaying WAL file "/tmp/mt_snapshot.duckdb.wal": Conflict on tuple deletion!
+[2026-11-20 13:30:05] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
