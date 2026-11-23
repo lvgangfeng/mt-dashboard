@@ -4514,3 +4514,10 @@ MD   → /tmp/mt_pages_out.md
 [2026-11-23 13:30:04] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Recv failure: Operation timed out
+[2026-11-23 13:32:33] push 第1次失败，切 HTTP/1.1 后重试
+fatal: unable to access 'https://github.com/lvgangfeng/mt-dashboard.git/': Empty reply from server
+[2026-11-23 13:32:44] ⚠️ 推送后校验不一致！local=a9e870deb318826a76b601de043bb62d028b6f0c remote=空——线上可能未更新，需人工核查
+[2026-11-23 14:30:04] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
