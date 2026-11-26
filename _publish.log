@@ -4621,3 +4621,7 @@ MD   → /tmp/mt_pages_out.md
 [2026-11-25 15:10:00] === mt_pages_publish 启动 ===
 HTML → /tmp/mt_pages_out.html
 MD   → /tmp/mt_pages_out.md
+[2026-11-25 15:10:33] ✅ 已推送 2026-11-25 15:10 并校验 remote==local(3077fd64ad32471f7dfa47beeb439bc317cb5db3) → Pages 将刷新
+[2026-11-26 09:40:00] === mt_pages_publish 启动 ===
+HTML → /tmp/mt_pages_out.html
+MD   → /tmp/mt_pages_out.md
